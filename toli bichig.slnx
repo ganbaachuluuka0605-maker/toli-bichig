@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="toli bichig/toli bichig.csproj" />
+  <Project Path="ToliSetup/ToliSetup.vdproj" Type="Installer" />
+  <Project Path="ToliSetup1/ToliSetup1.vdproj" Type="Installer" />
 </Solution>
