@@ -15,7 +15,31 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_527B4C4BDFE24DA6B5C4BC60A8BD7E73"
+        "MsmKey" = "8:_0ACB5DB0B97D4D1E8DDE7DCE8723BAC9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2A45EE14FD354006B4A1E495265A0AB0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_49FBFB4AB688458AA1D2CE2D1C6EC364"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70260D02991A4F6789A3FBFF2E6BE851"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E633F1EC2C734BAEA96571F80DA46EC0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -70,10 +94,100 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_7989C174EE9143B88A3AFD9D42564E35"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0ACB5DB0B97D4D1E8DDE7DCE8723BAC9"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\sqlite3.exe"
+            "TargetName" = "8:sqlite3.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2A45EE14FD354006B4A1E495265A0AB0"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\sqlite3.zip"
+            "TargetName" = "8:sqlite3.zip"
+            "Tag" = "8:"
+            "Folder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_49FBFB4AB688458AA1D2CE2D1C6EC364"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\dict.db"
+            "TargetName" = "8:dict.db"
+            "Tag" = "8:"
+            "Folder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E633F1EC2C734BAEA96571F80DA46EC0"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\saved.db"
+            "TargetName" = "8:saved.db"
+            "Tag" = "8:"
+            "Folder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -82,7 +196,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_69AC6C9A288F4D07971224EA72ED9B9F"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:3 helnii toli bichg"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -129,25 +243,25 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ToliSetup1"
+        "ProductName" = "8:Толь бичиг"
         "ProductCode" = "8:{40B5C3A7-0654-484C-AA40-2FBF67BD9A7A}"
-        "PackageCode" = "8:{F978512D-76EF-4BED-82A8-232253CB9321}"
+        "PackageCode" = "8:{524B459B-898B-4929-8CC6-8C11A4F24564}"
         "UpgradeCode" = "8:{97AF50B5-1EA5-42EA-B742-FFF396886F46}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:ToliSetup1"
+        "Title" = "8:Толв бичиг суулгах"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Default Company Name"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPURLINFOABOUT" = "8:МУБИС"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -251,7 +365,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4744B2C6E0E242609259DEE4D73012F4"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_207F924517E443D3BC53375B9ED8B583"
             {
             "Name" = "8:Shortcut to %sPrimary output from toli bichig (Active)"
             "Arguments" = "8:"
@@ -259,8 +373,22 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_527B4C4BDFE24DA6B5C4BC60A8BD7E73"
+            "Target" = "8:_70260D02991A4F6789A3FBFF2E6BE851"
             "Folder" = "8:_6BF0299A88894FEE8456D769E788B1B6"
+            "WorkingFolder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_61D4512D6C4E41B299A112425AFFB6FD"
+            {
+            "Name" = "8:Shortcut to %sPrimary output from toli bichig (Active)"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_70260D02991A4F6789A3FBFF2E6BE851"
+            "Folder" = "8:_A46074606B4B4B38BA759553A55EF214"
             "WorkingFolder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
             "Icon" = "8:"
             "Feature" = "8:"
@@ -664,9 +792,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_527B4C4BDFE24DA6B5C4BC60A8BD7E73"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_70260D02991A4F6789A3FBFF2E6BE851"
             {
-            "SourcePath" = "8:..\\toli bichig\\obj\\Debug\\net10.0-windows\\toli bichig.dll"
+            "SourcePath" = "8:..\\toli bichig\\obj\\Release\\net10.0-windows\\toli bichig.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_69AC6C9A288F4D07971224EA72ED9B9F"
